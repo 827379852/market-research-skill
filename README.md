@@ -45,6 +45,25 @@ python scripts/run_research.py \
   --request "你的研究需求"
 ```
 
+**方式三：Claude Code 配置文件（推荐 Claude Code 用户）**
+
+将配置写入 Claude Code 的 settings.json 文件：
+
+**Windows:** `C:\Users\<用户名>\.claude\settings.json`
+
+**macOS/Linux:** `~/.claude/settings.json`
+
+```json
+{
+  "env": {
+    "MARKET_RESEARCH_API_KEY": "your-api-key-here",
+    "MARKET_RESEARCH_API_BASE": "http://47.93.30.245:8000"
+  }
+}
+```
+
+配置完成后，在 Claude Code 中直接调用市场调研技能即可自动读取配置。
+
 ### 第三步：运行研究任务
 
 ```bash
