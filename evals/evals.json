@@ -1,0 +1,23 @@
+{
+  "skill_name": "market-research-api",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我用市场调研API做一个简单的研究，研究主题是\"年轻人对智能家居产品的接受度\"，生成3个用户人设",
+      "expected_output": "Should use the market research API to submit an auto-research task with persona_count=3 and the given research topic",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我想了解如何调用市场调研平台的API，给我写一个完整的Python脚本，包括测试连接、提交任务、轮询状态、保存报告的完整流程",
+      "expected_output": "Should provide a complete Python script demonstrating the full auto-research workflow with all necessary steps",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我有一个研究需求：探索一线城市白领对健康饮食外卖的需求和痛点。请帮我用API快速完成这个调研，并解释每一步在做什么",
+      "expected_output": "Should use the API to conduct the research with clear explanations of each step (submit, poll, get report)",
+      "files": []
+    }
+  ]
+}
